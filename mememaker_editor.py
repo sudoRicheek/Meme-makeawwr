@@ -11,7 +11,7 @@ import cv2
 from tkinter import *
 from PIL import Image, ImageTk
 
-class mememaker_editor() :
+class mememaker_editor(object) :
 
     usable_path = os.path.abspath("./") + "\\usable.jpg"
     usable_edit_path = os.path.abspath("./") + "\\usable_edit.jpg"
